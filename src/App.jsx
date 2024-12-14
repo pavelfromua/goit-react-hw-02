@@ -13,7 +13,7 @@ function App() {
             return JSON.parse(savedFeedback);
         }
 
-        return resetFeedback();
+        return {good: 0, neutral: 0, bad: 0};
     });
 
     const totalFeedback = Object.values(feedback).reduce((acc, value) => acc + value, 0);
