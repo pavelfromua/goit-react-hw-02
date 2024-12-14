@@ -1,0 +1,4 @@
+.liItem {
+    text-transform: capitalize;
+    list-style-type: none;
+}
